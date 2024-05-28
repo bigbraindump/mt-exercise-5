@@ -7,8 +7,8 @@ data=$base/data
 
 # download preprocessed data
 
-wget https://files.ifi.uzh.ch/cl/archiv/2020/mt20/data.ex5.tar.gz -P $base
-tar -xzvf $base/data.ex5.tar.gz
+curl -L https://files.ifi.uzh.ch/cl/archiv/2020/mt20/data.ex5.tar.gz -o $base/data.ex5.tar.gz
+tar -xzvf $base/data.ex5.tar.gz -C $base
 
 rm $base/data.ex5.tar.gz
 
