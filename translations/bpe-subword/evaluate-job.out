@@ -1,0 +1,16 @@
+###############################################################################
+model_name bpe-subword
+{
+ "name": "BLEU",
+ "score": 0.0,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.2",
+ "verbose_score": "0.0/0.0/0.0/0.0 (BP = 1.000 ratio = 4.930 hyp_len = 153648 ref_len = 31164)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.2"
+}
+time taken:
+218 seconds
