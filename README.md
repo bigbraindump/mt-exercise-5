@@ -96,6 +96,8 @@ Visualize plots for beam size against BLEU scores and time taken for translation
 
 A line graph was chosen for visualization since both the scores and time taken are continuous variables.
 
+The graphs generated in ./translate/bpe-vocab illustrate that as the beam size increases, the BLEU score consistently decreases, indicating that larger beam sizes counterintuitively lead to lower translation quality for this specific model and dataset. Conversely, the time taken for translation increases with larger beam sizes, which is expected due to the higher computational complexity involved in evaluating more candidate sequences. Based on these observations, I would use a beam size of 1 or 2 for future translations, as they offer the best balance between translation quality and computational efficiency. These smaller beam sizes achieve the highest BLEU scores while minimizing the translation time, making them the most effective choice for this task.
+
 ## Notes
 
 Please note that both Tasks 1 and 2 were completed using the UZH Cluster resources. GPU instances were added to all the slurm scripts to speed up processing times.
