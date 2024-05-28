@@ -1,0 +1,16 @@
+###############################################################################
+model_name bpe-vocab
+{
+ "name": "BLEU",
+ "score": 19.6,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.2",
+ "verbose_score": "54.3/27.1/15.0/8.5 (BP = 0.941 ratio = 0.943 hyp_len = 29389 ref_len = 31164)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.2"
+}
+time taken:
+78 seconds
