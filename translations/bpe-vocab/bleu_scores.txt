@@ -1,0 +1,29 @@
+Beam size: 1, BLEU score: 
+Beam size: 2, BLEU score: 
+Beam size: 3, BLEU score: 
+Beam size: 4, BLEU score: 
+Beam size: 5, BLEU score: 
+Beam size: 6, BLEU score: 
+Beam size: 7, BLEU score: 
+Beam size: 8, BLEU score: 
+Beam size: 9, BLEU score: 
+Beam size: 10, BLEU score: 
+Beam size: 1, BLEU score: 
+Beam size: 2, BLEU score: 
+Beam size: 3, BLEU score: 
+Beam size: 4, BLEU score: 
+Beam size: 5, BLEU score: 
+Beam size: 6, BLEU score: 
+Beam size: 7, BLEU score: 
+Beam size: 8, BLEU score: 
+Beam size: 9, BLEU score: 
+Beam size: 10, BLEU score: 
+Beam size: 1, BLEU score: 4.1 28.4/9.4/3.9/1.6 (BP = 0.639 ratio = 0.691 hyp_len = 45782 ref_len = 66262)
+Beam size: 2, BLEU score: 4.1 32.3/11.4/5.1/2.3 (BP = 0.512 ratio = 0.599 hyp_len = 39670 ref_len = 66262)
+Beam size: 3, BLEU score: 3.8 33.8/12.0/5.4/2.4 (BP = 0.448 ratio = 0.555 hyp_len = 36752 ref_len = 66262)
+Beam size: 4, BLEU score: 3.5 35.0/12.5/5.6/2.6 (BP = 0.397 ratio = 0.520 hyp_len = 34439 ref_len = 66262)
+Beam size: 5, BLEU score: 3.4 35.6/12.8/5.8/2.7 (BP = 0.375 ratio = 0.505 hyp_len = 33431 ref_len = 66262)
+Beam size: 6, BLEU score: 3.4 35.8/12.9/5.9/2.7 (BP = 0.365 ratio = 0.498 hyp_len = 33019 ref_len = 66262)
+Beam size: 7, BLEU score: 3.1 36.4/13.3/6.0/2.8 (BP = 0.331 ratio = 0.475 hyp_len = 31475 ref_len = 66262)
+Beam size: 8, BLEU score: 3.0 36.7/13.2/6.0/2.7 (BP = 0.315 ratio = 0.464 hyp_len = 30742 ref_len = 66262)
+Beam size: 9, BLEU score: 2.9 37.1/13.5/6.2/2.8 (BP = 0.299 ratio = 0.453 hyp_len = 30031 ref_len = 66262)
