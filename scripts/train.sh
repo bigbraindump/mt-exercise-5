@@ -1,14 +1,25 @@
 #! /bin/bash
 
+#SBATCH --job-name=train
+#SBATCH --time=2:00:00
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=32GB
+#SBATCH --output=train-job.out
+#SBATCH --error=train-job.err
+
+#SBATCH --ntasks=1
+#SBATCH --gres gpu:1
+#SBATCH --constraint=GPUMEM80GB
+
 scripts=$(dirname "$0")
-base=$scripts/..
+base=/scratch/$(whoami)/ex_05/mt-exercise-5/scripts/..
 
 models=$base/models
 configs=$base/configs
 
 mkdir -p $models
 
-num_threads=4
+num_threads=6
 
 # measure time
 
@@ -16,7 +27,7 @@ SECONDS=0
 
 logs=$base/logs
 
-model_name=?
+model_name=bpe-subword
 
 mkdir -p $logs
 

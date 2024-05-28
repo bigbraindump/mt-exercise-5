@@ -28,7 +28,7 @@ test_en=$data/test.ro-en.en
 cat $train_ro $train_en > $data/train.ro-en
 
 # learn BPE with a vocab size 2000 or 5000
-subword-nmt learn-joint-bpe-and-vocab --input $data/train.ro-en -s 2000 --total-symbols -o $data/bpe.codes --write-vocabulary $data/vocab.bpe
+subword-nmt learn-joint-bpe-and-vocab --input $data/train.ro-en -s 5000 --total-symbols -o $data/bpe.codes --write-vocabulary $data/vocab.bpe
 
 # BPE to training data
 subword-nmt apply-bpe -c $data/bpe.codes < $train_ro > $data/train.bpe.ro
